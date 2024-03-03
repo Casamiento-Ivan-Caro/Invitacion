@@ -111,6 +111,7 @@ span.amper {
 
   .info {
     width: 85%; /* Reducir el ancho del contenedor .info */
+    margin: 80px;
   }
 
   span.fecha {
@@ -296,6 +297,7 @@ span.amper {
 
   
 }
+
 
 
 
