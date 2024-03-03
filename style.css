@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+
+}
+
+@font-face {
+  font-family: "Cookie";
+  src: url(./fuentes/Butter\ Cookies.otf);
+}
+
+.portada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(../Casamiento/img/1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  min-height: auto;
+}
+
+.info {
+  width: 50%; /*estaba al 50%*/
+  height: 100vh;
+  margin: 30px auto;
+  text-align: center !important;
+}
+
+.fecha {
+  font-size: 30px;
+  color: #fff;
+}
+
+span.fecha::before {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0 10px 0 10px;
+}
+span.fecha::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0 10px 0 10px;
+}
+
+.titulo {
+  width: 100%;
+  font-family: "Cookie";
+  font-size: 120px;
+  text-align: center;
+  color: #fff;
+}
+
+span.amper {
+  line-height: 80px;
+  display: inline-block;
+  background-color: #c6d7cf;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  color: #516a67;
+  font-size: 90px;
+}
+
+.line {
+  border: 1px solid #fff;
+  width: 70%;
+  margin: auto;
+}
+
+.flores {
+  width: 100%;
+}
+
+.flores img {
+  width: 200px;
+  margin-top: 25px;
+}
+
+.flores-text {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.segundo {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+
+/*............................................................................*/
+
+@media only screen and (max-width: 767px) {
+
+ 
+
+
+  .info {
+    width: 85%; /* Reducir el ancho del contenedor .info */
+  }
+
+  span.fecha {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    /* Reducir el tamaño de la fuente para la fecha */
+  }
+
+  .titulo {
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Reducir el tamaño de la fuente del título */
+  }
+
+
+
+  .wave{
+    width: 100vw;
+    position: relative;
+  
+  }
+
+  span.amper {
+    line-height: 50px; /* Ajustar el espaciado del ampersand */
+    width: 50px; /* Reducir el tamaño del contenedor del ampersand */
+    height: 50px; /* Reducir el tamaño del contenedor del ampersand */
+    font-size: 80px; /* Ajustar el tamaño de la fuente del ampersand */
+  }
+
+  .line {
+    width: 90%; /* Reducir el ancho de la línea */
+  }
+
+  .flores img {
+    width: 150px; /* Reducir el tamaño de las imágenes de flores */
+  }
+
+  .flores-text {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Reducir el tamaño del texto de las flores */
+  }
+
+
+ .circulo {
+    display: flex;
+    background-color: #fcefde;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/circuloflores/circuloflores2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*
+    margin: 2em auto;
+    */
+    color: #000;
+    height: 350px;
+
+    font-size: 1em;
+  }
+
+  .circulo h4{
+    margin-top:60px;
+    font-family: "Cookie";
+    font-size: 70px;
+    text-align: center;
+  }
+
+  #Contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+.simply-amount{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin:  0px 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.simply-word{
+  text-align: center;
+  font-size: 1.2rem;
+  margin:  0px 10px;
+  color: #947b4f;
+  font-weight: 600;
+}
+
+.ceremonia{
+  background-color: #fcefde;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.etiqueta img{
+
+  margin: 30px auto;
+  width: 90vw;
+  }
+
+  .eventos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .dias{
+    margin-bottom: 50px;
+  }
+
+  .dia h4{
+    margin: 10px 0;
+    font-size: 2rem;
+    color: #516A67;
+    font-weight: 600;
+   
+  }
+
+  .dia p{
+    margin-bottom: 30px 0;
+    font-size: 1.3rem;
+  }
+
+  button.btn-dark{
+    background-color: #c6d7cf;
+
+    font-size: 1.3rem;
+    border: none;
+    margin: 20px 0;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 90%;
+
+  }
+
+  button.btn-dark a{
+    color: red;
+    text-decoration: none;
+    color: #516A67;
+  }
+
+  section.retrato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fcefde;
+    position: relative;
+    padding-bottom: 100px;
+  }
+
+  .retrato h4{
+    font-family: "Cookie";
+    font-size: 4rem;
+  }
+
+/* carousel.....................*/
+.d-block{
+  width: 90%;
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px 20px 60px 20px;
+  background-color: #fff;
+}
+
+  
+}
+
+
+/*f7e1d7*/
