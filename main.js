@@ -29,3 +29,4 @@ simplyCountdown('#Contador', {
     countUp: false, // enable count up if set to true
 });
 
+
