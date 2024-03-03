@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(../Casamiento/img/1.jpeg);
+    url(./img/1.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -296,5 +296,6 @@ span.amper {
 
   
 }
+
 
 
