@@ -271,6 +271,15 @@ span.amper {
     color: #516A67;
   }
 
+
+  .heart-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: heartbeat 1s infinite;
+  }
+  
+
   section.retrato{
     display: flex;
     flex-direction: column;
@@ -284,7 +293,7 @@ span.amper {
 
   .retrato h4{
     font-family: "Cookie";
-    font-size: 4rem;
+    font-size: 5rem;
     color: #354e4b;
   }
 
@@ -296,6 +305,12 @@ span.amper {
   padding: 20px 20px 100px 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  
+}
+
+.retrato p{
+  margin: 20px 20px;
+  font-size: 1.3rem;
   
 }
 
