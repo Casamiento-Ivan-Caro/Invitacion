@@ -27,7 +27,7 @@
 
 .info {
   width: 50%; /*estaba al 50%*/
-  height: 100vh;
+
   margin: 30px auto;
   text-align: center !important;
 }
@@ -106,12 +106,12 @@ span.amper {
 
 @media only screen and (max-width: 767px) {
 
- 
+
 
 
   .info {
     width: 85%; /* Reducir el ancho del contenedor .info */
-    margin: 80px;
+    margin: 80px 0px;
   }
 
   span.fecha {
@@ -294,6 +294,10 @@ span.amper {
   padding: 20px 20px 60px 20px;
   background-color: #fff;
 }
+
+  
+}
+
 
   
 }
