@@ -315,17 +315,15 @@ span.amper {
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: 1px solid #516A67;
+  border:none;
     border-radius: 5px;
     cursor: pointer;
     z-index: 1000;
   }
-
+ 
   #playButton {
-    background-color: #c6d7cf;
-    color: #516a67;
+    background-color: #516a67;
+    color:  #c6d7cf;
     font-weight: 600;
     font-size: 1.2rem;
   }
