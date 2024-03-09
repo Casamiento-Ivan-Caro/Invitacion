@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(./img/1.jpeg);
+    url(./img/beso.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -173,7 +173,7 @@ span.amper {
     background-color: #fcefde;
     flex-direction: column;
     align-items: center;
-    background-image: url(./img/circuloflores/circuloflores2.png);
+    background-image: url(./img/circuloflores2.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -269,13 +269,6 @@ span.amper {
     color: #516A67;
   }
 
-  .heart-container {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation: heartbeat 1s infinite;
-  }
-
   section.retrato {
     display: flex;
     flex-direction: column;
@@ -352,8 +345,7 @@ span.amper {
   }
 
   .vestimenta {
-    background-color: #c6d7cf;
-
+  
     width: 100%;
     min-height: 300px;
     border-radius: 10%;
@@ -370,12 +362,6 @@ span.amper {
     color: #354e4b;
     font-size: 1.5rem;
     font-family: 'Cookie';
-  }
-
-  .final h4 {
-    font-size: 5rem;
-    font-family: 'Cookie';
-    color: #516a67;
   }
 
   .final p {
@@ -401,6 +387,20 @@ span.amper {
     left: 0;
     bottom: 0;
     transform: rotateX(180deg);
+  }
+
+  .final img{
+    margin: 30px auto;
+    width: 90vw;
+  }
+
+  .vestimenta p{
+    margin: 20px 20px;
+    font-size: 1.5rem;
+  }
+
+  .vestimenta img{
+    width: 50%;
   }
 
   .wavefinalabajo {
