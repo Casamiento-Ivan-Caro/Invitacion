@@ -46,7 +46,7 @@ span.fecha::before {
   background-color: #fff;
   margin: 0 10px 0 10px;
 }
-
+ 
 span.fecha::after {
   content: "";
   display: inline-block;
@@ -250,6 +250,7 @@ span.amper {
   .dia p {
     margin: 30px 20px;
     font-size: 1.3rem;
+    color: #354e4b;
   }
 
   button.btn-dark {
@@ -306,6 +307,7 @@ span.amper {
   .retrato p {
     margin: 20px 20px;
     font-size: 1.3rem;
+    color: #354e4b;
   }
 
   #playButton {
@@ -345,7 +347,6 @@ span.amper {
   }
 
   .vestimenta {
-  
     width: 100%;
     min-height: 300px;
     border-radius: 10%;
@@ -358,15 +359,18 @@ span.amper {
     margin: 50px;
   }
 
+  /*
   .vestimenta h4 {
     color: #354e4b;
     font-size: 1.5rem;
     font-family: 'Cookie';
   }
+  */
 
   .final p {
     margin: 20px 20px;
     font-size: 1.3rem;
+    color: #354e4b;
   }
 
   .segundoretrato {
@@ -398,6 +402,7 @@ span.amper {
     margin: 20px 20px;
     font-size: 2.3rem;
     font-family: 'Cookie';
+    color: #354e4b;
   }
 
   .vestimenta img{
