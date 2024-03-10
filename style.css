@@ -103,7 +103,7 @@ span.amper {
   background-color: red;
 }
 
-/*............................................................................*/
+/*...................................................................MAX WIDTH 480.............................................*/
 @media screen and (max-width: 480px) {
 
   .info {
@@ -164,7 +164,7 @@ span.amper {
     justify-content: center;
   }
 
-  /*flecha hacia abajo.....................................................................................*/
+  /*...................................................................FLECHA HACIA ABAJO.............................................*/
 
   .circle i{
 
@@ -304,8 +304,7 @@ span.amper {
     font-size: 5rem;
     color: #354e4b;
   }
-
-  /* carousel.....................*/
+/*...................................................................CAROUSEL.............................................*/
   .d-block {
     width: 90%;
     height: 300px;
@@ -431,6 +430,7 @@ span.amper {
 
 }
 
+/*...................................................................MAX WIDTH 767.............................................*/
 
 @media only screen and (max-width: 767px)
  {
@@ -457,7 +457,6 @@ span.amper {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* Reducir el tamaño de la fuente del título */
   }
 
   .wave {
@@ -467,13 +466,9 @@ span.amper {
 
   span.amper {
     line-height: 50px;
-    /* Ajustar el espaciado del ampersand */
     width: 50px;
-    /* Reducir el tamaño del contenedor del ampersand */
     height: 50px;
-    /* Reducir el tamaño del contenedor del ampersand */
     font-size: 80px;
-    /* Ajustar el tamaño de la fuente del ampersand */
   }
 
   .line {
@@ -512,8 +507,6 @@ span.amper {
 
     
   }
-
-
   .circulo {
     display: flex;
     background-color: #fcefde;
@@ -634,7 +627,7 @@ span.amper {
     color: #354e4b;
   }
 
-  /* carousel.....................*/
+/*...................................................................CAROUSEL............................................*/
   .d-block {
     width: 90%;
     height: 300px;
@@ -657,9 +650,10 @@ span.amper {
     color: #354e4b;
   }
 
+/*..................................................................PLAY BUTTON.............................................*/
   #playButton {
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     right: 20px;
     padding: 10px 20px;
   border:none;
@@ -679,8 +673,6 @@ span.amper {
     width: 30%;
     padding: 20px 0px;
   }
-
-
 
   .final {
     display: flex;
@@ -779,7 +771,7 @@ span.amper {
   .creado{
     background-color: #f0ca9a;
     width: 100%;
-    padding: 20px 30px 50px 20px;
+    padding: 20px 30px 15px 20px;
     text-align: center;
   }
 
