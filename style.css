@@ -167,6 +167,22 @@ span.amper {
     /* Reducir el tamaño del texto de las flores */
   }
 
+  .circle i{
+    color: #fff;
+    font-size: 30px;
+    animation: animate 1s linear infinite;
+  }
+
+  @keyframes animate 
+  {
+     0%{
+       transform: translateY(-20px);
+       
+     }
+
+    
+  }
+
 
   .circulo {
     display: flex;
@@ -183,6 +199,7 @@ span.amper {
     color: #000;
     height: 350px;
     font-size: 1em;
+
   }
 
   .circulo h4 {
@@ -333,15 +350,18 @@ span.amper {
     padding: 20px 0px;
   }
 
+
+
   .final {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
+  
     background-color: #fcefde;
     text-align: center;
-    padding: 30px;
+    padding: 60px 30px;
   }
 
   .vestimenta {
@@ -392,7 +412,7 @@ span.amper {
   }
 
   .final img{
-    margin: 30px auto;
+    margin: 25px auto;
     width: 90vw;
   }
 
@@ -410,4 +430,6 @@ span.amper {
   .wavefinalabajo {
     margin-top: 278px;
   }
+
+
 }
